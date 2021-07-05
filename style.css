@@ -1,0 +1,625 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* For desktop: */
+.col-sm-sm-sm-1 {width: 8.33%;}
+.col-sm-2 {width: 16.66%;}
+.col-sm-3 {width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+.menubar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    color: #2c4964;
+    transition: 0.3s;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 2px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+
+
+}
+.menubar a:hover{
+    border-bottom: 2px solid #1977CC ;
+
+}
+.menubar{
+
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+.log h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    
+    color: #2C4964;
+
+}
+.menu{
+    text-align: center;
+}
+.btn button{
+    background-color: #1977CC;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: .5s;
+}
+.btn :hover{
+    background-color: white;
+    font-weight: bold;
+    color: #1977CC;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    border: thin solid black;
+}
+.bg-img{
+    background-image: url("img/hero-bg.jpg");
+    background-size: cover;
+    height: 400px;
+    padding: 20px;
+    margin-top: 370px;
+}
+.bg-img h1{
+    margin-top: 15px;
+    font-size: 3rem;
+    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #2c4964;
+    font-family: "Raleway", sans-serif;
+
+}
+.bg-img h3{
+    
+    color: #2c4964;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    
+
+}
+.bg-img button{
+    background-color: #1977CC;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;}
+.cards::after{
+        display: table;
+        content: '';
+        clear: both;
+    
+}
+/* card 1 stars here */
+.card-1{
+    
+    background-color: #1977CC;
+    padding: 15px;
+    height: 75%;
+    border-radius: 3px;
+    transform: scale(0.9);
+    margin-bottom: 100px;
+}
+
+.card-1 h1{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    margin-top: 10px;
+}
+.card-1 p{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+
+
+}
+.card-1 button{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: none;
+    text-align: center;
+    margin-left: 15%;
+    
+    
+
+}
+/* card 1 ends here */
+/* card 2 stars here */
+.card-2{
+    margin-top: -100px;
+    box-shadow: 10px 10px  black;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 100%;
+    height: 370px;
+    transform: scale(0.9);
+    margin-bottom: 100px;
+
+
+}
+.card-2 h1{
+    text-align: center;
+    color: #1977cc;
+    font-size: 40px;
+}
+
+.card-2 p{
+    text-align:left;
+    color: gray;
+    
+}
+/* card 2 ends here */
+.flo{
+    float: left;
+}
+.imaged img{
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    
+}
+.enim{
+    color: rgb(44, 73, 100);
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    text-align: left;
+}
+.esse{
+    color: rgb(68, 68, 68);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px
+}
+.fas{
+    border: 1px solid #1977cc;
+    font-size: 32px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #1977cc ;
+    font-weight: bold;
+    transition: 1s;
+    cursor: pointer;
+}
+.fas:hover{
+    background-color: #1977cc  ;
+    color: white;
+}
+.flo h1{
+    color: rgb(52, 58, 64);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.flo p {
+    margin-bottom: 20px;
+}
+.card5d{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.card-num{
+    display: table;
+    content: '';
+    clear: both;
+}
+/* card 85 staressdfds */
+
+.card-86{
+    margin-top: -100px;
+    box-shadow: 10px 10px  black;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 100%;
+    height:250px;
+    transform: scale(0.9);
+    text-align: center;
+    margin-bottom: 100px;
+
+
+}
+.card-86 h1{
+    text-align: center;
+    background-color: lightgray;
+    color: #1977cc;
+
+    font-size: 40px;
+}
+
+.card-86 p{
+    text-align:center;
+    margin-top: 5px;
+    color: gray;
+    
+}
+.card-86 i{
+    padding: 20px;
+    background-color: #1977cc;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.secton-ar-jonno h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    border-bottom: 5px solid #1977cc;
+    margin: 0px 450px;
+    margin-top: 15px;
+    text-align: center;
+    
+    
+}
+.secton-ar-jonno p {
+    text-align: center;
+    color: rgb(68, 68, 68);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.card-55 i{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1977cc;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px rgb(44, 73, 100);
+}
+.card-55{
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+    transform: scale(0.9);
+    height: 500px;
+}
+
+.card-55 h1{
+    color: rgb(44, 73, 100);
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    margin-top: 20px;
+}
+.card-55 p{
+    color: rgb(68, 68, 68);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: justify;
+
+    
+}
+.conuct{
+    text-align: center;
+    margin: 5px;
+}
+.did{
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(206, 212, 218);
+    
+    
+    border-bottom-width: 1px;
+    
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(206, 212, 218);
+    
+    border-left-width: 1px;
+    border-right-color: rgb(206, 212, 218);
+    
+    border-right-width: 1px;
+    border-top-color: rgb(206, 212, 218);
+    
+    border-top-style: solid;
+    border-top-width: 1px;
+    
+    
+    color: rgb(73, 80, 87);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 21px;
+    
+    
+    padding: 10px;
+    
+    text-align: start;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.15s, 0.15s;
+    transition-property: border-color, box-shadow;
+    transition-timing-function: ease-in-out, ease-in-out;
+    width: 363.333px;
+}
+.text-area{
+    margin-right: 300px;
+    resize: none;
+}
+.conuct::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.conuct{
+    background-color: #F1F7FD;
+    padding: 10px;
+}
+.madfd{
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(206, 212, 218);
+    
+    
+    border-bottom-width: 1px;
+    
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(206, 212, 218);
+    
+    border-left-width: 1px;
+    border-right-color: rgb(206, 212, 218);
+    
+    border-right-width: 1px;
+    border-top-color: rgb(206, 212, 218);
+    
+    border-top-style: solid;
+    border-top-width: 1px;
+    
+    
+    color: rgb(73, 80, 87);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 21px;
+    
+    
+    padding: 10px;
+    
+    text-align: start;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.15s, 0.15s;
+    transition-property: border-color, box-shadow;
+    transition-timing-function: ease-in-out, ease-in-out;
+    width: 563.333px;
+
+}
+.text-areaddd{
+    color: rgb(73, 80, 87);
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(206, 212, 218);
+    
+    
+    border-bottom-width: 1px;
+    
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(206, 212, 218);
+    
+    border-left-width: 1px;
+    border-right-color: rgb(206, 212, 218);
+    
+    border-right-width: 1px;
+    border-top-color: rgb(206, 212, 218);
+}
+.mand{
+    margin-top: 10px;
+    background-color: #1977CC;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: .5s;
+}
+.mand:hover{
+    background-color: #40709b;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: .5s;
+}
+.design1{
+    color: rgb(44, 73, 100);
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+.sefdsf::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.catagory{
+    line-height: 50px;
+    padding: 12px;
+    transition: 0.3s;
+    color: #2c4964;
+    border-radius: 0;
+    border-right: 2px solid #ebf1f6;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.textest h1{
+    color: rgb(44, 73, 100);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.2px;
+    margin-bottom: 20px;
+}
+.textest p{
+    font-style: italic;
+    color: rgb(119, 119, 119);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+
+}
+.doctor-class1{
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.7);
+    overflow: hidden;
+    transition: 1s;
+}
+.doctor-class1:hover{
+    transform: rotate(360deg);
+    
+}
+.doctor{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(0.94);
+}
+.doct-name{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: #2c4964;
+}
+.doct-podo{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.doct-para{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px;
+}
+.catagory{
+    text-align: center;
+}
+.gallre img{
+    transition: .1s;
+}
+.gallre img:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+
+}
+.map222{
+    width: 100%;
+}
+
+    
+
